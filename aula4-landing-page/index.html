@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Landing - Seu Serviço</title>
+
+  <!-- Google Font (opcional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Shandiel</a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#services">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / BANNER -->
+    <section class="hero" id="home">
+      <div class="hero-inner container">
+        <div class="hero-content">
+          <h1>Construo sites profissionais que vendem</h1>
+          <p>Landing pages, lojas virtuais e plataformas sob medida — foco em conversão e performance.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#contato">Solicitar orçamento</a>
+            <a class="btn ghost" href="#projetos">Ver projetos</a>
+          </div>
+        </div>
+
+        <div class="hero-image" aria-hidden="true">
+          <!-- substitua por assets/images/hero.png -->
+          <img src="assets/images/hero.png" alt="Mockup de site em tela" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Serviços</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Sites / Landing Pages</h3>
+            <p>Design responsivo, otimizado para conversão e SEO on-page.</p>
+          </article>
+
+          <article class="card">
+            <h3>Loja Virtual</h3>
+            <p>Integração com meios de pagamento, gestão de catálogo e checkout otimizado.</p>
+          </article>
+
+          <article class="card">
+            <h3>APIs & Sistemas</h3>
+            <p>Backends robustos com Node.js/Express e bancos SQL/NoSQL.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2>O que clientes dizem</h2>
+        <div class="test-cards">
+          <blockquote class="test">
+            <p>"Entrega profissional e comunicação excelente — recomendo."</p>
+            <cite>— Maria, CEO</cite>
+          </blockquote>
+
+          <blockquote class="test">
+            <p>"Projeto entregue antes do prazo e com ótima performance."</p>
+            <cite>— João, fundador</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / CONTATO -->
+    <section class="cta" id="contato">
+      <div class="container">
+        <h2>Pronto para começar?</h2>
+        <p>Peça um orçamento rápido. Normalmente respondo em até 24 horas.</p>
+        <a class="btn primary" href="#form">Solicitar orçamento</a>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section class="contact-section">
+      <div class="container">
+        <h2>Solicitar Orçamento</h2>
+
+        <form id="form" action="#" method="POST" class="contact-form" novalidate>
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required />
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="servico">Serviço</label>
+          <select id="servico" name="servico" required>
+            <option value="">Selecione um serviço</option>
+            <option value="landing">Landing Page</option>
+            <option value="loja">Loja Virtual</option>
+            <option value="sistema">Sistema Web / API</option>
+          </select>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+          <button type="submit" class="btn primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 – Shandiel</p>
+      <nav aria-label="Rodapé">
+        <a href="#">Política de privacidade</a>
+        <a href="#">Termos</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
