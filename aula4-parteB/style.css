@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.card-imagem{
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 0 auto 30px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+.card-imagem img{
+    max-width: 100%;
+    border-radius: 12px;
+}
+.btn-animado{
+    display: inline-block;
+    background: #4a4af0;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition:  0.3s ease;
+    margin: 30px;
+}
+.btn-animado:hover{
+    background: #3333cc;
+    transform: scale(1.06);
+     box-shadow: 0 5px 18px rgba(74,74,240,0.4);
+}
+.tabela-interativa {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-interativa th {
+  background: #4a4af0;
+  color: white;
+  padding: 12px;
+}
+
+.tabela-interativa td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.tabela-interativa tr:hover {
+  background: #e8e8ff;
+  transition: 0.3s;
+}
